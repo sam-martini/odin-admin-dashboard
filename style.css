@@ -1,3 +1,14 @@
+:root {
+    --light: #fffee6;
+    --dark: #4f4869;
+    --blue: #8edede;
+    --yellow: #f4d388;
+    --orange: #e59058;
+    --beige: #fce5bb;
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -84,11 +95,12 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
+    padding-right: 10px;
 }
 
 .announcement {
     padding: 15px 10px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--dark);
 }
 .announcement p:first-child {
     font-weight: bold;
@@ -119,5 +131,5 @@
 
 
 .announcements-container, .trend-container {
-    background-color: #fce5bb;
+    background-color: var(--beige);
 }

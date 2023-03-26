@@ -21,6 +21,10 @@
     grid-area: footer;
 }
 
+.wrapper div {
+    border: 1px solid #c66090;
+}
+
 
 
 .wrapper {
@@ -42,6 +46,36 @@
 
 
 
-.wrapper div {
-    border: 1px solid #c66090;
+
+.nav {
+    display: grid;
+    grid-template-rows: 110px 1fr 2fr;
+    padding-left: 15px;
+}
+.nav-header {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 2rem;
+}
+.nav-header img {
+    width: 50px;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.primary-links, .secondary-links {
+    padding-top: 10px;
+}
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 10px;
+}
+.list-item img {
+    width: 30px;
 }

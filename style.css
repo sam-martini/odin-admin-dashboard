@@ -54,6 +54,72 @@
 
 
 
+.header {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 80px 40px;
+    align-items: center;
+    padding: 10px;
+    row-gap: 5px;
+}
+.header img {
+    width: 30px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+.search-container input {
+    outline: none;
+    appearance: none;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.user-nav {
+    display: flex;
+    justify-content: end;
+    padding-right: 30px;
+    gap: 18px;
+}
+.user-nav h2 {
+    font-size: 1rem;
+}
+
+.welcome-banner {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.welcome-banner h1 {
+    font-size: 1.8rem;
+}
+.welcome-banner img {
+    width: 70px;
+}
+
+.btns-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.btns-container button {
+    appearance: none;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 25px;
+    width: 33%;
+}
+
+
+
+
 .nav {
     display: grid;
     grid-template-rows: 110px 1fr 2fr;
